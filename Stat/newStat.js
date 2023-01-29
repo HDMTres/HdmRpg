@@ -1,12 +1,23 @@
-import miseajourStat, { armureMaj, AttackMaj, hpMaj } from "../Joueur/miseajourStat.js";
+/*import miseajourStat, { armureMaj, AttackMaj, hpMaj } from "../Joueur/miseajourStat.js";
 
 const newStat = () => {
-    miseajourStat.HP = hpMaj();
-    miseajourStat.Attack = AttackMaj();
-    miseajourStat.Armure = armureMaj();
+  const newmiseajourStat ={
+    HP: hpMaj(),
+    Attack: AttackMaj(),
+    Armure: armureMaj(),
+  }
+    miseajourStat.HP = newmiseajourStat.HP;
+    miseajourStat.Attack = newmiseajourStat.Attack
+    miseajourStat.Armure = newmiseajourStat.Armure
     console.log(`
       HP : ${miseajourStat.HP} 
       Attack : ${miseajourStat.Attack} 
       Armure : ${miseajourStat.Armure} \n`);
   }
+  const newmiseajourStat ={
+    HP: hpMaj(),
+    Attack: AttackMaj(),
+    Armure: armureMaj(),
+  }
 export default newStat;
+export {newmiseajourStat};*/

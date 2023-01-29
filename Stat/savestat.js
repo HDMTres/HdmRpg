@@ -1,20 +1,12 @@
-import miseajourStat from "../Joueur/miseajourStat.js";
-import fs from 'fs/promises';
+import { writeFile } from "node:fs"
+import miseajourStat from "../Joueur/miseajourStat.js"
 
-
-
-const saveStat = async () => {
-    const stats = {
-    HP: miseajourStat.HP,
-    Attack: miseajourStat.Attack,
-    Armure: miseajourStat.Armure
-    };
-    try {
-      fs.writeFile('save.json', JSON.stringify(stats));
-      console.log('Sauvegarde effectuée !');
-    } catch (err) {
-      console.error(err);
+const savestat = () => {
+  const data = JSON.stringify(miseajourStat)
+  writeFile("savestat.json", data, (err) => {
+    if (err) {
+      throw err
     }
+  })
 }
-export default saveStat;
-
+export default savestat();

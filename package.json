@@ -2,6 +2,7 @@
   "type": "module",
   "main": "basejeu.js",
   "dependencies": {
+    "chalk": "^5.2.0",
     "eslint": "^8.32.0",
     "prettier": "^2.8.3",
     "prettier-config": "^1.0.0"

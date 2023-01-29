@@ -1,4 +1,4 @@
-import runSaisie from './Joueur/menuPrincipal.js';
+import runSaisie from './BaseJeu/AffichageMenu/menuPrincipal.js';
 
 //
 runSaisie() 

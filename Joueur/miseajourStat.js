@@ -14,8 +14,7 @@ const miseajourStat = {
     HP: hpMaj(),
     Attack: AttackMaj(),
     Armure: armureMaj(),
-};
+}
+
+
 export default miseajourStat
-export {hpMaj}
-export {AttackMaj}
-export {armureMaj}

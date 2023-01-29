@@ -1,8 +1,8 @@
 
 const affichageOptions=()=> {
   const options = [
-    "Fight", "Shop", "New Stat",
-    "Save Game", "Exit ❌ \n"
+    "Fight", "Shop",
+    "Save Game and Exit", "Exit❌ \n"
   ];
 
   options.forEach((option, index) => {
